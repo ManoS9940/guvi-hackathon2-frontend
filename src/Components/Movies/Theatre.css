@@ -1,0 +1,15 @@
+.theatres{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+   
+}
+.paper{
+    text-align: center;
+    margin-left: 350px;
+    padding:15px;
+}
+.home{
+    margin-left: 550px;
+}

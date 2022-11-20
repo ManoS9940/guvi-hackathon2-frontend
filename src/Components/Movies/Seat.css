@@ -1,0 +1,12 @@
+.screen{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+   padding-top:0px
+}
+.grids{
+    margin:30px;
+   margin-left:375px;
+   text-align: center;
+}
