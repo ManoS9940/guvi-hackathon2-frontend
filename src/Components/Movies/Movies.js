@@ -23,7 +23,7 @@ function Movies() {
 
     useEffect(() => {
         const getmovies = async () => {
-                var response = await axios.get('https://book-my-show-be.herokuapp.com/getmovies')
+                var response = await axios.get('https://bookmyshow-backend-er8v.onrender.com/getmovies')
                 console.log(response);
                 setMoviesList(response.data);
             }
