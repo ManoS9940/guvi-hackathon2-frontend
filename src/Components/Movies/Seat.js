@@ -15,7 +15,7 @@ function Seating() {
 
     useEffect(() => {
         const getSeats = async () => {
-            var response = await axios.get('https://book-my-show-be.herokuapp.com/getseats')
+            var response = await axios.get('https://bookmyshow-backend-er8v.onrender.com/getseats')
             console.log(response);
             setSeats(response.data);
         }
