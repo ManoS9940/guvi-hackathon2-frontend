@@ -17,7 +17,7 @@ function Theatres() {
 
     useEffect(() => {
         const getTheatres = async () => {
-            var response = await axios.get('https://book-my-show-be.herokuapp.com/gettheatres')
+            var response = await axios.get('https://bookmyshow-backend-er8v.onrender.com/gettheatre')
             console.log(response);
             setTheatres(response.data);
         }
